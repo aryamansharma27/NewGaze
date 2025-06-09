@@ -15,4 +15,13 @@ If you want, you can download the file via command line, for example:
 
 ```bash
 wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
+```
+
+## Running the Project
+
+To run the main script with the downloaded weights and use your webcam (source 0), run:
+
+```bash
+python3 new_gaze.py --weights yolov7.pt --source 0
+```
 
